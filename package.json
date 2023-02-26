@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator-module12",
+  "version": "1.0.0",
+  "description": "App to create a new HTML document with the details of the team.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidklmn/team-profile-generator-module12.git"
+  },
+  "author": "David Kelemen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidklmn/team-profile-generator-module12/issues"
+  },
+  "homepage": "https://github.com/davidklmn/team-profile-generator-module12#readme",
+  "devDependencies": {
+    "jest": "^29.4.3"
+  },
+  "dependencies": {
+    "inquirer": "^6.5.0"
+  }
+}
