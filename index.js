@@ -86,8 +86,7 @@ const promptForNextEmployee = () => {
         // else
       } else {
         //    use the functionality from page-template to generate the team
-        // buildPage(team);
-        console.log("done");
+        buildPage(team);
       }
     });
 };
@@ -173,7 +172,11 @@ const promptForIntern = () => {
     });
 };
 
-// const buildPage = () => {
-//   // render(myArrayOfTeamMembers)
-//   console.log("Yay!");
-// };
+const buildPage = () => {
+  // render(myArrayOfTeamMembers)
+  var pageContent = render(team);
+  // generate HTML
+  fs.writeFile(outputPath, pageContent, (err) => {
+    err ? console.error(err) : console.log("Your team is ready");
+  });
+};
