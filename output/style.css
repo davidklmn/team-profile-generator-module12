@@ -2,12 +2,12 @@
   background-color: #e84855;
   color: #ffffff;
 }
-​ .team-area {
+.team-area {
   max-width: 1000px;
   margin: 3em auto;
   flex-wrap: wrap;
 }
-​ .employee-card {
+.employee-card {
   margin: 1em;
   max-width: 280px;
   width: 90%;
@@ -20,13 +20,13 @@
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
   border: none;
 }
-​ .card-body {
+.card-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #f6f7f8;
 }
-​ .list-group-item {
+.list-group-item {
   color: #000000;
   text-decoration: none;
 }
