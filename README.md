@@ -13,4 +13,4 @@ https://github.com/davidklmn/team-profile-generator-module12/commit/53bda33b521d
 
 ## Screenshot
 
-![screencshot of my finished project](https://github.com/davidklmn/team-profile-generator-module12/src/Team-Profile-Generator.png)
+![screencshot of my finished project](https://github.com/davidklmn/team-profile-generator-module12/blob/main/src/Team-Profile-Generator.png)
